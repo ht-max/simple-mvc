@@ -16,7 +16,7 @@ class Router
      */
     public function match(Request $request, $route = false)
     {
-        if (count($this->_childs)) {
+        if (is_array($this->_childs) && count($this->_childs)) {
             $route = $this->_match($request, $route);
         }
 
