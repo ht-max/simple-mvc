@@ -1,5 +1,5 @@
 {
-    "name": "wdalmut/simple-mvc",
+    "name": "ht.maks/simple-mvc",
     "description": "A simple and full stack Push & Pull MVC framework.",
     "type":"library",
     "keywords":["mvc","framework","microframework","micro"],
